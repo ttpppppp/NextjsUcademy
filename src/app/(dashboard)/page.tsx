@@ -1,10 +1,11 @@
 import CourseGrid from '@/component/common/CourseGrid'
 import CourseItem from '@/component/course/CourseItem'
 import Heading from '@/component/typography/Heading'
-import createUser from '@/lib/actions/user.action'
+import { deleteAllUser } from '@/lib/actions/user.action'
 import React from 'react'
 
 const page =  () => {
+  // const result = deleteAllUser();
   return (
     <div>
       <Heading>Khám phá</Heading>
